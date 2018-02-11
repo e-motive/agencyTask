@@ -1,7 +1,7 @@
-# agencyTask
-landing page for web studios etc.
+# agencyPage
+Landing page for web studios etc.
 
-Simple landing age created per two nights is easy to use.
+Simple landing page created per two nights is easy to use.
 
 You should have Node.js and NPM installed on your machine.
 
