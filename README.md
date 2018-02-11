@@ -10,4 +10,5 @@ Create a folder, enter it, open a terminal and run following commands:
 2) cd agencyTask
 3) npm install
 4) gulp watch
+
 And you're good to go!
