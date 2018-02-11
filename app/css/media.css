@@ -1,0 +1,497 @@
+@media all and (max-width: 1366px) {
+  .team .team--content .content--portrait {
+    -webkit-flex-basis: 400px;
+        -ms-flex-preferred-size: 400px;
+            flex-basis: 400px; }
+  .team .team--content .content--crew {
+    -webkit-flex-basis: 60%;
+        -ms-flex-preferred-size: 60%;
+            flex-basis: 60%; }
+    .team .team--content .content--crew .crew--members {
+      margin-top: 50px; }
+      .team .team--content .content--crew .crew--members .member--card {
+        -webkit-flex-basis: 22%;
+            -ms-flex-preferred-size: 22%;
+                flex-basis: 22%; } }
+
+@media all and (max-width: 1280px) {
+  .products .products--navigation {
+    max-width: 100%; }
+  .main .introduction .introduction--header .header--heading {
+    font-size: 40pt;
+    letter-spacing: 1pt; } }
+
+@media all and (max-width: 1024px) {
+  .products .products--navigation ul .navigation--item {
+    font-size: 13pt; }
+  .team .team--content .content--portrait {
+    -webkit-flex-basis: 370px;
+        -ms-flex-preferred-size: 370px;
+            flex-basis: 370px; }
+  .team .team--content .content--crew {
+    -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%; }
+    .team .team--content .content--crew .crew--member .member--social {
+      max-width: 70%;
+      margin-top: 20px; }
+      .team .team--content .content--crew .crew--member .member--social a {
+        font-size: 9pt; }
+    .team .team--content .content--crew .crew--members {
+      margin-top: 61px; }
+      .team .team--content .content--crew .crew--members .member--card {
+        -webkit-flex-basis: 23%;
+            -ms-flex-preferred-size: 23%;
+                flex-basis: 23%;
+        height: 200px; }
+        .team .team--content .content--crew .crew--members .member--card .card--caption {
+          font-size: 8pt; }
+  .subscribe .subscribe--container .subscribe--heading {
+    font-size: 25pt; }
+  .contacts .contacts--content {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .contacts .contacts--content .contacts--container {
+      -webkit-flex-basis: 100%;
+          -ms-flex-preferred-size: 100%;
+              flex-basis: 100%; }
+      .contacts .contacts--content .contacts--container .contacts--form {
+        margin-left: 10px; }
+        .contacts .contacts--content .contacts--container .contacts--form .form--credentials .credentials--name {
+          -webkit-flex-basis: 45%;
+              -ms-flex-preferred-size: 45%;
+                  flex-basis: 45%; }
+          .contacts .contacts--content .contacts--container .contacts--form .form--credentials .credentials--name .name-input {
+            font-size: 11pt;
+            padding: 15px 0 15px 30px; }
+        .contacts .contacts--content .contacts--container .contacts--form .form--credentials .credentials--email {
+          -webkit-flex-basis: 45%;
+              -ms-flex-preferred-size: 45%;
+                  flex-basis: 45%; }
+          .contacts .contacts--content .contacts--container .contacts--form .form--credentials .credentials--email .email-input {
+            font-size: 11pt;
+            padding: 15px 0 15px 30px; } }
+
+@media all and (max-width: 768px) {
+  .main {
+    min-height: 600px;
+    padding-top: 0; }
+    .main .main--navigation {
+      max-width: 100%; }
+      .main .main--navigation ul {
+        -webkit-flex-basis: 70%;
+            -ms-flex-preferred-size: 70%;
+                flex-basis: 70%; }
+    .main .introduction {
+      min-height: 360px;
+      margin: 0 auto;
+      margin-top: 50px; }
+      .main .introduction .introduction--header {
+        -webkit-flex-basis: 100%;
+            -ms-flex-preferred-size: 100%;
+                flex-basis: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .main .introduction .introduction--header .header--heading {
+          font-size: 30pt;
+          line-height: 36pt;
+          text-align: center; }
+        .main .introduction .introduction--header .header--text {
+          text-align: center; }
+      .main .introduction .introduction--video {
+        display: none; }
+  .services {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px; }
+    .services .services--header {
+      -webkit-flex-basis: 100%;
+          -ms-flex-preferred-size: 100%;
+              flex-basis: 100%;
+      text-align: center;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .services .services--header .header--heading {
+        font-size: 28pt; }
+      .services .services--header .header--text {
+        line-height: 21pt; }
+      .services .services--header .header--learn-more {
+        margin-top: 40px; }
+    .services .services--content {
+      -webkit-flex-basis: 95%;
+          -ms-flex-preferred-size: 95%;
+              flex-basis: 95%;
+      margin: 40px auto; }
+      .services .services--content .content--item {
+        -webkit-flex-basis: 45%;
+            -ms-flex-preferred-size: 45%;
+                flex-basis: 45%;
+        text-align: center;
+        margin-bottom: 40px; }
+        .services .services--content .content--item .item--icon img {
+          margin-right: 0; }
+        .services .services--content .content--item .item--text {
+          line-height: 20pt; }
+  .products {
+    margin-top: 80px;
+    max-width: 90%; }
+    .products section .products--text {
+      line-height: 20pt; }
+    .products .products--navigation ul .navigation--item {
+      font-size: 11pt; }
+  .team {
+    width: 90%; }
+    .team .team--header {
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      text-align: center; }
+      .team .team--header section {
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .team .team--header section .team--text {
+          line-height: 20pt; }
+        .team .team--header section .divider {
+          margin: 20px auto; }
+    .team .team--content {
+      margin-top: 30px;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .team .team--content .content--portrait {
+        -webkit-flex-basis: 60%;
+            -ms-flex-preferred-size: 60%;
+                flex-basis: 60%;
+        max-height: 400px; }
+      .team .team--content .content--crew {
+        margin-top: 15px;
+        -webkit-flex-basis: 60%;
+            -ms-flex-preferred-size: 60%;
+                flex-basis: 60%; }
+        .team .team--content .content--crew .crew--member {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center; }
+          .team .team--content .content--crew .crew--member .team--text {
+            text-align: center;
+            line-height: 20pt; }
+          .team .team--content .content--crew .crew--member .member--social {
+            width: 80%; }
+            .team .team--content .content--crew .crew--member .member--social a {
+              text-decoration: underline;
+              font-size: 11pt; }
+  .subscribe {
+    height: 400px;
+    background-color: #9e8484; }
+    .subscribe .subscribe--container {
+      background-image: none; }
+      .subscribe .subscribe--container .subscribe--heading {
+        font-size: 20pt; }
+      .subscribe .subscribe--container .subscribe--text {
+        max-width: 45%;
+        line-height: 20pt;
+        margin-top: 10px; }
+      .subscribe .subscribe--container .subscribe--form {
+        margin: 30px auto; }
+        .subscribe .subscribe--container .subscribe--form .email-input {
+          -webkit-flex-basis: 70%;
+              -ms-flex-preferred-size: 70%;
+                  flex-basis: 70%;
+          padding: 15px 0 15px 30px;
+          font-size: 11pt; }
+        .subscribe .subscribe--container .subscribe--form .subscribe-button {
+          -webkit-flex-basis: 25%;
+              -ms-flex-preferred-size: 25%;
+                  flex-basis: 25%;
+          -webkit-border-radius: 5px;
+                  border-radius: 5px;
+          font-size: 10pt;
+          height: 50px; }
+  .contacts .contacts--header {
+    width: 90%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .contacts .contacts--header section {
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .contacts .contacts--header section .contacts--heading {
+        margin: auto; }
+      .contacts .contacts--header section .contacts--text {
+        text-align: center;
+        line-height: 20pt; }
+      .contacts .contacts--header section .divider {
+        margin: 20px auto; }
+  .contacts .contacts--content {
+    margin-top: 40px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .contacts .contacts--content .contacts--container {
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .contacts .contacts--content .contacts--container .contacts--form {
+        -webkit-flex-basis: 80%;
+            -ms-flex-preferred-size: 80%;
+                flex-basis: 80%; }
+        .contacts .contacts--content .contacts--container .contacts--form .form--send .send-button {
+          -webkit-box-flex: 0;
+          -webkit-flex: 0;
+              -ms-flex: 0;
+                  flex: 0;
+          margin: auto;
+          -webkit-flex-basis: 60%;
+              -ms-flex-preferred-size: 60%;
+                  flex-basis: 60%; }
+      .contacts .contacts--content .contacts--container .contacts--info {
+        height: 300px;
+        -webkit-flex-basis: 80%;
+            -ms-flex-preferred-size: 80%;
+                flex-basis: 80%;
+        margin-top: 40px; }
+        .contacts .contacts--content .contacts--container .contacts--info .info--container {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          margin: 55px auto; } }
+
+@media all and (max-width: 640px) {
+  .products .products--navigation ul .navigation--item {
+    font-size: 10pt; }
+  .contacts .contacts--header section .contacts--heading {
+    font-size: 26pt; }
+  .footer .footer--copyright {
+    font-size: 8pt; } }
+
+@media all and (max-width: 540px) {
+  .products .products--navigation ul .navigation--item {
+    font-size: 8pt; }
+  .contacts .contacts--header section .contacts--heading {
+    font-size: 22pt; }
+  .contacts .contacts--content .contacts--container .contacts--form .form--credentials .credentials--name {
+    -webkit-flex-basis: 45%;
+        -ms-flex-preferred-size: 45%;
+            flex-basis: 45%; }
+    .contacts .contacts--content .contacts--container .contacts--form .form--credentials .credentials--name .name-input {
+      font-size: 10pt;
+      padding: 10px 0 10px 20px; }
+  .contacts .contacts--content .contacts--container .contacts--form .form--credentials .credentials--email {
+    -webkit-flex-basis: 45%;
+        -ms-flex-preferred-size: 45%;
+            flex-basis: 45%; }
+    .contacts .contacts--content .contacts--container .contacts--form .form--credentials .credentials--email .email-input {
+      font-size: 10pt;
+      padding: 10px 0 10px 20px; } }
+
+@media all and (max-width: 480px) {
+  .services .services--header .header--heading {
+    font-size: 26pt; }
+  .products .products--navigation {
+    width: 100%; }
+    .products .products--navigation ul .navigation--item {
+      font-size: 7pt; }
+  .team .team--content .content--crew {
+    -webkit-flex-basis: 80%;
+        -ms-flex-preferred-size: 80%;
+            flex-basis: 80%; }
+    .team .team--content .content--crew .crew--members {
+      margin-top: 50px; }
+      .team .team--content .content--crew .crew--members .member--card {
+        -webkit-flex-basis: 22%;
+            -ms-flex-preferred-size: 22%;
+                flex-basis: 22%; }
+        .team .team--content .content--crew .crew--members .member--card .card--caption {
+          font-size: 7pt; }
+  .subscribe .subscribe--container .subscribe--heading {
+    font-size: 18pt; }
+  .subscribe .subscribe--container .subscribe--form {
+    width: 65%;
+    margin: 30px auto;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    .subscribe .subscribe--container .subscribe--form .email-input {
+      -webkit-flex-basis: 90%;
+          -ms-flex-preferred-size: 90%;
+              flex-basis: 90%;
+      margin: auto;
+      padding: 12px 0 12px 20px;
+      font-size: 10pt;
+      -webkit-border-radius: 5px;
+              border-radius: 5px; }
+    .subscribe .subscribe--container .subscribe--form .subscribe-button {
+      -webkit-flex-basis: 90%;
+          -ms-flex-preferred-size: 90%;
+              flex-basis: 90%;
+      margin: 20px auto;
+      font-size: 10pt;
+      height: 40px; }
+  .contacts .contacts--header section .contacts--heading {
+    font-size: 20pt; } }
+
+@media all and (max-width: 414px) {
+  .main {
+    min-height: 700px;
+    width: 100%; }
+    .main .main--navigation ul .navigation--item-link {
+      padding: 0 15px 0 15px;
+      font-size: 8pt; }
+    .main .introduction {
+      height: 460px; }
+      .main .introduction .introduction--header .header--heading {
+        font-size: 26pt; }
+  .contacts .contacts--content {
+    margin-top: 15px; }
+    .contacts .contacts--content .contacts--container .contacts--form {
+      margin-left: 0; }
+      .contacts .contacts--content .contacts--container .contacts--form .form--credentials .credentials--name {
+        -webkit-flex-basis: 30%;
+            -ms-flex-preferred-size: 30%;
+                flex-basis: 30%; }
+        .contacts .contacts--content .contacts--container .contacts--form .form--credentials .credentials--name .name-input {
+          font-size: 9pt;
+          padding: 12px 0 12px 8px; }
+      .contacts .contacts--content .contacts--container .contacts--form .form--credentials .credentials--email {
+        -webkit-flex-basis: 30%;
+            -ms-flex-preferred-size: 30%;
+                flex-basis: 30%; }
+        .contacts .contacts--content .contacts--container .contacts--form .form--credentials .credentials--email .email-input {
+          font-size: 9pt;
+          padding: 12px 0 12px 8px; }
+      .contacts .contacts--content .contacts--container .contacts--form .form--message {
+        margin-top: 15px; }
+      .contacts .contacts--content .contacts--container .contacts--form .form--send {
+        margin-top: 15px; }
+        .contacts .contacts--content .contacts--container .contacts--form .form--send .send-button {
+          -webkit-box-flex: 1;
+          -webkit-flex: 1;
+              -ms-flex: 1;
+                  flex: 1;
+          font-size: 10pt;
+          height: 55px; }
+  .team .team--content .content--crew {
+    height: 570px; }
+    .team .team--content .content--crew .crew--member .member--social {
+      width: 80%; }
+      .team .team--content .content--crew .crew--member .member--social a {
+        text-decoration: underline;
+        font-size: 7pt; }
+    .team .team--content .content--crew .crew--members .member--card {
+      -webkit-flex-basis: 25%;
+          -ms-flex-preferred-size: 25%;
+              flex-basis: 25%;
+      height: 160px; }
+      .team .team--content .content--crew .crew--members .member--card .card--caption {
+        line-height: 14pt;
+        font-size: 6pt; }
+  .products {
+    margin-top: 80px;
+    max-width: 90%; }
+    .products .products--content {
+      height: 300px; }
+      .products .products--content .products-item {
+        height: 130px; }
+    .products section .products--text {
+      line-height: 20pt; }
+    .products .products--navigation ul .navigation--item {
+      font-size: 6pt; }
+  .subscribe .subscribe--container .subscribe--heading {
+    margin: 30px auto;
+    font-size: 14pt; }
+  .subscribe .subscribe--container .subscribe--text {
+    margin-top: 1px; }
+  .contacts .contacts--header section {
+    -webkit-flex-basis: 60%;
+        -ms-flex-preferred-size: 60%;
+            flex-basis: 60%; }
+    .contacts .contacts--header section .contacts--heading {
+      font-size: 16pt; }
+  .contacts .contacts--content .contacts--container .contacts--form .form--credentials {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    .contacts .contacts--content .contacts--container .contacts--form .form--credentials .credentials--name {
+      -webkit-flex-basis: 100%;
+          -ms-flex-preferred-size: 100%;
+              flex-basis: 100%; }
+      .contacts .contacts--content .contacts--container .contacts--form .form--credentials .credentials--name .name-input {
+        font-size: 9pt;
+        padding: 12px 0 12px 10px; }
+    .contacts .contacts--content .contacts--container .contacts--form .form--credentials .credentials--email {
+      -webkit-flex-basis: 100%;
+          -ms-flex-preferred-size: 100%;
+              flex-basis: 100%;
+      margin-top: 15px; }
+      .contacts .contacts--content .contacts--container .contacts--form .form--credentials .credentials--email .email-input {
+        font-size: 9pt;
+        padding: 12px 0 12px 10px; }
+  .footer .footer--copyright {
+    -webkit-flex-basis: 45%;
+        -ms-flex-preferred-size: 45%;
+            flex-basis: 45%;
+    font-size: 6pt; }
+  .footer .footer--social {
+    -webkit-flex-basis: 45%;
+        -ms-flex-preferred-size: 45%;
+            flex-basis: 45%; }
+    .footer .footer--social .social--icon {
+      height: 25px;
+      width: 25px;
+      margin-right: 5px; } }

@@ -1,0 +1,18 @@
+// *****Configuration file with
+// *****some variables and default styling
+
+$initial-width: 80%;
+$text-color: #575050;
+$header-color: #2e2b2b;
+$primary-red-color: #ff2d2d;
+body {
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100%;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
